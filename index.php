@@ -1,3 +1,4 @@
+<?php require_once './extras/clockify.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -193,7 +194,7 @@
                             <p class="section-paragraph">Derzeitiger Fortschritt im Projekt</p>
                             <div class="status">
                                 <div class="status-card">
-                                    <div class="big">244</div>
+                                    <div class="big"><?php echo fetchTotalHours() ?? 200; ?></div>
                                     <div class="subtext">Arbeitsstunden</div>
                                 </div>
                                 <div class="status-card">
