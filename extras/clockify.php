@@ -7,7 +7,7 @@ require_once 'clockify_keys.php';
  * @return int total tracked hours
  */
 function fetchTotalHours() {
-    global $workspace_id, $clockify_api_key; // from keys.php
+    global $workspace_id, $clockify_api_key; // from clockify_keys.php
     
     $url = 'https://reports.api.clockify.me/v1/workspaces/'.$workspace_id.'/reports/summary';
     $payload = '{"dateRangeStart": "2021-04-01T00:00:00.000","dateRangeEnd": "2022-04-01T23:59:59.000","summaryFilter": {"groups": ["USER","PROJECT","TIMEENTRY"]}}';
@@ -20,7 +20,6 @@ function fetchTotalHours() {
     curl_close($ch);
 
     $total_time = json_decode($result)->totals[0]->totalTime; // total time in seconds
-
     return round($total_time/60/60); // total time in hours
 }
 
