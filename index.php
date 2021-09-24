@@ -1,4 +1,4 @@
-<?php require_once './extras/clockify.php'; ?>
+<?php require_once './extras/project_status.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -194,16 +194,16 @@
                             <p class="section-paragraph">Derzeitiger Fortschritt im Projekt</p>
                             <div class="status">
                                 <div class="status-card">
-                                    <div class="big">15%</div>
+                                    <div class="big"><?php echo $project_percent; ?>%</div>
                                     <div class="subtext">Projektfortschritt</div>
                                 </div>
                                 <div class="status-card">
-                                    <div class="big"><?php echo fetchTotalHours() ?? 200; ?></div>
-                                    <div class="subtext">Arbeitsstunden</div>
+                                    <div class="big"><?php echo $project_sprints; ?></div>
+                                    <div class="subtext">Sprint abgeschlossen</div>
                                 </div>
                                 <div class="status-card">
-                                    <div class="big">1</div>
-                                    <div class="subtext">Sprint abgeschlossen</div>
+                                    <div class="big"><?php echo $project_hours; ?></div>
+                                    <div class="subtext">Arbeitsstunden</div>
                                 </div>
                             </div>
 					    </div>
