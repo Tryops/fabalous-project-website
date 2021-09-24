@@ -245,6 +245,13 @@
                                         Ansuchen zur Diplomarbeit
                                     </p>
                                 </div>
+
+                                <div class="cta-cta download">
+                                    <a class="button button-primary" href="./downloads/FAB_Antrag.pdf" download="Fabalous_Antrag.pdf">Download</a>
+                                    <p class="text-sm mb-0">
+                                        Antrag zur Diplomarbeit
+                                    </p>
+                                </div>
                                 
                                 <!-- <div class="cta-cta download">
                                     <a class="button button-primary" href="">Download</a>
