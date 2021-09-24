@@ -194,16 +194,16 @@
                             <p class="section-paragraph">Derzeitiger Fortschritt im Projekt</p>
                             <div class="status">
                                 <div class="status-card">
+                                    <div class="big">15%</div>
+                                    <div class="subtext">Projektfortschritt</div>
+                                </div>
+                                <div class="status-card">
                                     <div class="big"><?php echo fetchTotalHours() ?? 200; ?></div>
                                     <div class="subtext">Arbeitsstunden</div>
                                 </div>
                                 <div class="status-card">
-                                    <div class="big">0</div>
-                                    <div class="subtext">Reports generiert</div>
-                                </div>
-                                <div class="status-card">
-                                    <div class="big">200</div>
-                                    <div class="subtext">Codezeilen programmiert</div>
+                                    <div class="big">1</div>
+                                    <div class="subtext">Sprint abgeschlossen</div>
                                 </div>
                             </div>
 					    </div>
