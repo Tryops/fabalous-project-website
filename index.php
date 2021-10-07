@@ -8,7 +8,7 @@
     <title>Fabalous Diplomarbeit</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|IBM+Plex+Sans:600" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
-    <link rel="icon" type="image/svg+xml" href="/dist/images/hero-media-light.svg">
+    <link rel="icon" type="image/svg+xml" href="/dist/images/logo-light.svg">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
 </head>
 <body class="is-boxed has-animations">
