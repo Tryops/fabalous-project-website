@@ -91,6 +91,14 @@
 .footer-part {
     margin-bottom: 15px;
 }
+.brand.header-brand {
+    margin-top: 16px;
+}
+@media (max-width: 640px) {
+    .site-header-inner {
+        justify-content: center !important;
+    }
+}
 
 /* Template CSS */
 html{
@@ -1096,7 +1104,7 @@ button,input,select,textarea,label{
 }
 .site-header{
     position:relative;
-    padding:24px 0;
+    /* padding:24px 0; */
     z-index:2
 }
 .site-header::before{
