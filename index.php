@@ -200,7 +200,7 @@
                                 </div>
                                 <div class="status-card">
                                     <div class="big"><?php echo $project_sprints; ?></div>
-                                    <div class="subtext">Sprint abgeschlossen</div>
+                                    <div class="subtext">Sprints abgeschlossen</div>
                                 </div>
                                 <div class="status-card">
                                     <div class="big"><?php echo $project_hours; ?></div>
