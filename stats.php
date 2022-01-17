@@ -7,12 +7,12 @@
             margin-right: 10px;
         }
     </style>
-    <title>Statistics</title>
+    <title>Stats</title>
 </head>
 <body>
 
-<h1><i class="mr-10 icon-chart"></i>Statistics</h1>
-<h3><i class="mr-10 icon-envelope"></i>Referrers</h3>
+<h1><i class="mr-10 icon-chart"></i>Stats</h1>
+<h3><i class="mr-10 icon-envelope"></i>Referers</h3>
 <?php
 try {
     set_error_handler(function($errno, $errstr) { throw new Exception($errstr, $errno); }, E_WARNING);
@@ -21,7 +21,7 @@ try {
     $data = json_decode(file_get_contents($file));
 
     echo '<table>';
-    echo '<th>Referrer tag</th><th>Number of visits</th>';
+    echo '<th>Ref tag</th><th>Number of visits</th>';
     foreach ($data as $key => $value) {
         $key = htmlspecialchars($key);
         $value = htmlspecialchars($value);
