@@ -1,3 +1,4 @@
+<?php require_once './extras/refs.php'; ?>
 <?php require_once './extras/project_status.php'; ?>
 <!DOCTYPE html>
 <html lang="en" class="no-js">
