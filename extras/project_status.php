@@ -2,8 +2,8 @@
 
 require_once './extras/clockify.php';
 
-$project_percent = 99;
-$project_sprints = 7;
-$project_hours = fetchTotalHours() ?? 200;
+$project_percent = 100;
+$project_sprints = 8;
+$project_hours = fetchTotalHours() ?? 1011;
 
 ?>

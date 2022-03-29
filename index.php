@@ -193,7 +193,7 @@
                     <div class="cta-inner section-inner">
                         <div class="cta-header text-center">
                             <h2 class="section-title mt-0">Projektstatus</h2>
-                            <p class="section-paragraph">Derzeitiger Fortschritt im Projekt</p>
+                            <p class="section-paragraph">Das Projekt wurde erfolgreich abgeschlossen 🥳</p>
                             <div class="status">
                                 <div class="status-card">
                                     <div class="big"><?php echo $project_percent; ?>%</div>
